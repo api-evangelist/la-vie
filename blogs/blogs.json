@@ -1,0 +1,28 @@
+{
+  "repo": "la-vie",
+  "feeds": [
+    {
+      "source": "https://www.laviefoods.com/en/feed/",
+      "feed_url": "https://www.laviefoods.com/en/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.laviefoods.com/en/products/",
+      "feed_url": "https://www.laviefoods.com/en/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.laviefoods.com/en/news/",
+      "feed_url": "https://www.laviefoods.com/en/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
