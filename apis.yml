@@ -1,8 +1,17 @@
 aid: la-vie
 name: La Vie
-description: 'La Vie is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Food & Agritech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork
+  products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold
+  across French and UK retail and foodservice. Its stated mission is to move people from animal to
+  vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land
+  use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's,
+  Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger
+  King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a
+  consumer packaged-goods brand rather than an API provider: it publishes no public developer
+  portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/
+  discovery documents. This profile therefore captures the company's real public web, legal, press
+  and domain-security surface rather than developer artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/la-vie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,29 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.laviefoods.com/wp-content/uploads/2021/10/cropped-favicon-la-vie-2-270x270.png
 tags:
 - Company
 - Food & Agritech
+- Plant-Based
+- Food & Beverage
+- Consumer Packaged Goods
+- Sustainability
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/la-vie-domain-security.yml
 - type: Website
   url: https://www.laviefoods.com/
+- type: About
+  url: https://www.laviefoods.com/en/mission/
+- type: Products
+  url: https://www.laviefoods.com/en/products/
+- type: Blog
+  url: https://www.laviefoods.com/en/news/
+- type: BlogRSS
+  url: https://www.laviefoods.com/en/feed/
+- type: Support
+  url: https://www.laviefoods.com/en/faq/
+- type: Contact
+  url: https://www.laviefoods.com/en/contact/
+- type: Press
+  url: https://www.laviefoods.com/en/newsroom/
+- type: TermsOfService
+  url: https://www.laviefoods.com/en/legal-informations/
+- type: PrivacyPolicy
+  url: https://www.laviefoods.com/en/privacy-policy/
+- type: CookiePolicy
+  url: https://www.laviefoods.com/en/cookies-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
